@@ -1,0 +1,8 @@
+[package]
+name = "cuda-adaptive-rate"
+version = "0.1.0"
+edition = "2021"
+description = "Adaptive rate limiting for agent workloads — token-aware, model-specific backpressure"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
